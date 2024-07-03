@@ -1,0 +1,226 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+.fa-social {
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 5px;
+  }
+  
+  .fa-social:hover {
+      opacity: 0.7;
+      background-color: rgb(87, 87, 245);
+      color:white;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-twitter{
+    background-color: rgb(127, 127, 247);
+    color:white;
+  }
+  .fa-google-plus{
+    background-color: red;
+    color:white;
+  }
+  .fa-yelp{
+    background-color:darkred;
+    color:white;
+  }
+  
+
+
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #008CBA;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+  }
+  
+  .card:hover .overlay {
+    height: 100%;
+  }
+  .text-card {
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: left;
+  }
+  .card-h{
+    color:white;
+  }
+  .blocquote-info {
+  
+    border-left:4px solid #00708c;
+    border-bottom: solid 1px #00708c;
+    background-color: rgb(228, 222, 222);
+  }
+  .alert-info{
+    background-color: #dcecf2;
+      color: #00708c;
+      border-left: solid 5px #00708c;
+      border-right: solid 5px #00708c;
+      border-top: solid 1px #00708c;
+      border-bottom: solid 1px #00708c;
+  }
+  .skill{
+    border: 1px solid black;
+   
+  }
+  .btn-1{
+    margin-top: 20px;
+    float: right;
+   width: 100px;
+   height: 40px;
+   background-color: #00708c;
+   color: white;
+   margin-bottom: 10px;
+  }
+  .demo1{
+    border: 1px solid black;
+  }
+  .collapse{
+    border: 1px solid black;
+    border-radius: 10px;
+  }
+  .pannel-h{
+    text-align: left;
+  }
+  
+  .progress{
+    border-radius: 0px;
+    margin-bottom: 10px;
+    
+  }
+  .progress-bar{
+    background-color: #de8e03;
+  }
+  .progress-bar-1{
+    background-color: rebeccapurple
+  }
+  .imgw{
+  
+    border-radius: 120px;
+  }
+  .serve{
+    border: 1px solid black;
+  }
+  .cont{
+    border: 1px solid black;
+  }
+
+
+
+
+  .footer-h
+{
+  font-size: 1.35em;
+    color: #ff434c;
+}
+.footer-main{
+  background-color: #28364f;
+    border-top: solid 5px #0092E7;
+}
+.footer-ul{
+  text-decoration:none;
+}
+.home-link-1{
+  color:#0d89a8;
+  
+}
+.home-link-1:link{
+  text-decoration: none;
+}
+.ftrsocialicons a.social-icon {
+  background-color: #FFF;
+  color: #28364f!important;
+}
+.ftrsocialicons a.yelp {
+  background: url(../images/yelp.png) no-repeat center;
+}
+.fa-facebook.fa-social-footer{
+  background-color: #FFF;
+  color: #28364f!important;
+}
+.fa-twitter.fa-social-footer{
+  background-color: #FFF;
+  color: #28364f!important;
+}
+.fa-google-plus.fa-social-footer{
+  background-color: #FFF;
+  color: #28364f!important;
+}
+
+.fa-yelp.fa-social-footer{
+  background-color: #FFF;
+  color: rgb(155, 4, 4)!important;
+}
+
+.fa-facebook.fa-social-footer:hover{
+  color: #FFF !important;
+  background-color: #28364f;
+}
+.fa-twitter.fa-social-footer:hover{
+color: #FFF !important;
+  background-color: #28364f;
+}
+.fa-google-plus.fa-social-footer:hover{
+  color: #FFF !important;
+  background-color: #28364f;
+}
+.fa-yelp.fa-social-footer:hover{
+  background-color: #28364f;
+  color: rgb(155, 4, 4)!important;
+}
+
+.fa-social-footer{
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 5px;
+ 
+  
+}
+
+
+        
+            .footer {
+            background-color: #333;
+            color: #ccc;
+            padding: 15px 0;
+            text-align: center;
+            border-top: solid 1px #444;
+          margin-bottom: 10px;}
+          #p-l{
+            color:rgb(103, 103, 238);
+          }
+            
+        
